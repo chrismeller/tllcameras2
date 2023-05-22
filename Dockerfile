@@ -5,7 +5,7 @@ WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["src/TLLCameras2.App/TLLCameras2.App.csproj", "TLLCameras2.App/"]
+COPY ["TLLCameras2.App/TLLCameras2.App.csproj", "TLLCameras2.App/"]
 RUN dotnet restore "TLLCameras2.App/TLLCameras2.App.csproj"
 COPY . .
 WORKDIR "/src/TLLCameras2.App"
