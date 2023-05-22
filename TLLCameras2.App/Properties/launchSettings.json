@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TLLCameras2.App": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
